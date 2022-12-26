@@ -6,9 +6,7 @@ This is a simple Go program for creating new Go projects. The program will creat
 1. Download or clone go_setup repository onto your local machine.
 2. Edit the path for the working directory where you would like your go projects to be created.
 3. Edit the path string for initializing the go module to be your preferred format. 
-3. Navigate into the go_setup directory and run the make create command followed by the name of the project you want to create.
-
-`make create project=<projectName>`
+3. Navigate into the go_setup directory and run the make create command followed by the name of the project you want to create. `make create project=<projectName>`
 
 - Optionally you can run `go run <filepath to go_setup>/main.go <projectName` from anywhere
 
